@@ -1,9 +1,8 @@
 let change = 0;
 let objects  = [
-    {songName: 'Solamente tu', author: 'Pablo Alboran',song:"/SOLAMENTE TÚ (PABLO ALBORÁN).mp3",img:"https://i.scdn.co/image/ab67616d0000b273337e905147bb1845d04d1686"},
-    {songName: 'Cold as Ice', author: 'Foreigner',song:"/Foreigner - Cold As Ice (Single - LP Version).mp3",img:"https://upload.wikimedia.org/wikipedia/en/3/3f/Foreigner_-_Cold_As_Ice_b-w_I_Need_You_%281977%29.jpg"},
-    {songName:'AC/DC', author: 'Highway to Hell',song:"/DC.mp3",img:"https://media.newyorker.com/photos/59095f7eebe912338a374b3a/master/w_2560%2Cc_limit/Michaud-ACDC.jpg"},
-    {songName: "About Damn Time", author:'Lizzo',song:"/About Damn Time.mp3",img:"https://upload.wikimedia.org/wikipedia/en/d/da/Lizzo_-_About_Damn_Time.png"}
+    {songName: 'Let me love you', author: 'Justin Bieber',song:"https://dl.dropbox.com/s/x6f49cu1rdqnngu/Let%20Me%20Love%20You.mp3?dl=0",img:"https://images.theconversation.com/files/468502/original/file-20220613-13-5z7b10.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"},
+    {songName: 'Legends Never Die', author: 'Against The Current',song:"https://dl.dropbox.com/s/5jyylqps64nyoez/Legends%20never%20die.mp3?dl=0",img:"https://i.imgur.com/iki9Pf8.jpg"},
+    {songName:'Believer', author: 'Dragons',song:"https://dl.dropbox.com/s/e5y42cc90ugx09t/Believer.mp3?dl=0",img:"https://i.ytimg.com/vi/UUD0LapcSqA/mqdefault.jpg"},
 ] 
 
 const music = document.getElementById('music');
