@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="music.css">
+    <title>Music Player</title>
+</head>
+<body>
+        <div class="main_container">
+            <div class="loader hide">
+                <div class="justify-content-center jimu-primary-loading"></div>
+            </div>
+            <figure class="fig">
+                <img class="imagen" id="picture" src="https://i.scdn.co/image/ab67616d0000b273337e905147bb1845d04d1686" alt="Song-img">
+            </figure>
+            <p id="text" class="song_name">Solamente tu</p>
+            <p id="artist" class="song_artist">Pablo Alboran</p>
+            
+            
+            <div class="buttons">
+    
+                    <!-- prev btn -->
+                    <button class="btn" id="btn-back">
+                        <i id="left" class="fa fa-caret-left"></i>
+                    </button>
+    
+                    <!-- audio tag -->
+                    <audio src="/SOLAMENTE TÚ (PABLO ALBORÁN).mp3" class="audio-bar" id="music"></audio>
+                    
+                    <!-- pause btn -->
+                    <button class="btn" id="pause">
+                        <i id="pause2" class="fa fa-pause"></i>
+                    </button>
+                    
+                    <!-- play btn -->
+                    <button class="btn" id="play">
+                        <i id="play2" class="fa fa-play"></i>
+                    </button>
+                    
+                    <!-- next btn -->
+                    <button class="btn" id="btn-next">
+                        <i id="right" class="fa fa-caret-right"></i>
+                    </button>
+    
+            </div>
+        </div>
+        <script src="music.js"></script>
+    </body>
+</html>
